@@ -1,0 +1,2 @@
+# AvestanEditor
+Avestan language editor
