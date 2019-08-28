@@ -1,2 +1,2 @@
 # AvestanEditor
-Avestan language editor
+Avestan language text editor
