@@ -1,0 +1,3 @@
+#!/bin/sh
+# Clone QrCode sub module
+git clone https://github.com/ArdeshirV/ArdeshirV.Utility.QrCode.git

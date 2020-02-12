@@ -1,0 +1,8 @@
+#!/bin/sh
+# Clean directory before update git
+rm -R "ArdeshirV.Forms\bin"
+rm -R "ArdeshirV.Forms\obj"
+rm -R "Test ArdeshirV.Forms\bin"
+rm -R "Test ArdeshirV.Forms\obj"
+rm -R "ArdeshirV.Utility.QrCode\bin"
+rm -R "ArdeshirV.Utility.QrCode\obj"
