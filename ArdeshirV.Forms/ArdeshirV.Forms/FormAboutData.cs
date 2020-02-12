@@ -424,7 +424,7 @@ Email: ArdeshirV@protonmail.com
 github: https://github.com/ArdeshirV";
 
 			const string strCreditArdeshirV  =
-@"ArdeshirV is the 'ArdeshirV.Forms' founder and developer.
+@"ArdeshirV is 'ArdeshirV.Forms' founder and developer.
 Email: ArdeshirV@protonmail.com
 github: https://github.com/ArdeshirV";
 

@@ -67,19 +67,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AssemblyAttributeAccessors.cs" />
-    <Compile Include="ComboBoxImage.cs">
-      <SubType>Component</SubType>
-    </Compile>
+    <Compile Include="ComboBoxImage.cs" />
     <Compile Include="FormAboutData.cs" />
-    <Compile Include="FormInput.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="FormInput.cs" />
     <Compile Include="FormInput.Designer.cs">
       <DependentUpon>FormInput.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormMessage.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="FormMessage.cs" />
     <Compile Include="FormMessage.Designer.cs">
       <DependentUpon>FormMessage.cs</DependentUpon>
     </Compile>
