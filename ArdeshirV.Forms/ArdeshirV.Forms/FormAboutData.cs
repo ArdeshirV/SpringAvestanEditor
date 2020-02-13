@@ -420,23 +420,25 @@ namespace ArdeshirV.Forms
 			// You can find the best sample code in TestForms/FormMainTest.cs file.
 			const string strCreditArdeshirVQrCode=
 @"ArdeshirV downgrade the https://github.com/manuelbl/QrCodeGenerator project to C# 2.0 to use it with ArdeshirV.Forms Project.
-Email: ArdeshirV@protonmail.com
-github: https://github.com/ArdeshirV";
+QrCode: https://ardeshirv.github.io/ArdeshirV.Utility.QrCode
+Github: https://github.com/ArdeshirV/ArdeshirV.Utility.QrCode
+Email: ArdeshirV@protonmail.com";
 
 			const string strCreditArdeshirV  =
 @"ArdeshirV is 'ArdeshirV.Forms' founder and developer.
-Email: ArdeshirV@protonmail.com
-github: https://github.com/ArdeshirV";
+ArdeshirV.Forms: 
+Github: https://github.com/ArdeshirV/ArdeshirV.Forms
+Email: ArdeshirV@protonmail.com";
 
 			const string strCreditNayuki =
 @"The original QrCode project is created in Nayuki project with Java by Nayuki.
-Email: me@nayuki.io
-https://www.nayuki.io/page/qr-code-generator-library
-https://github.com/nayuki/QR-Code-generator";
+Project Nayuki: https://www.nayuki.io/page/qr-code-generator-library
+Github: https://github.com/nayuki/QR-Code-generator
+Email: me@nayuki.io";
 
 			const string strCreditBleichenbacher =
 @"Manuel Bleichenbacher converted original Nayuki project about QrCodeGenerator from Java to C#.
-https://github.com/manuelbl/QrCodeGenerator";
+QrCodeGenerator: https://github.com/manuelbl/QrCodeGenerator";
 
 			_credits = new Credit[] {
 				new Credit("ArdeshirV.QrCode", strCreditArdeshirVQrCode, Resources.ArdeshirV),
