@@ -23,7 +23,7 @@
     </UpgradeBackupLocation>
     <OldToolsVersion>3.5</OldToolsVersion>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
-    <SignAssembly>true</SignAssembly>
+    <SignAssembly>False</SignAssembly>
     <DelaySign>False</DelaySign>
     <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
     <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
@@ -87,9 +87,6 @@
     <StartAction>Project</StartAction>
   </PropertyGroup>
   <PropertyGroup />
-  <PropertyGroup>
-    <AssemblyOriginatorKeyFile>SpringAvestanEditorKey.pfx</AssemblyOriginatorKeyFile>
-  </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>False</NoWin32Manifest>
   </PropertyGroup>
