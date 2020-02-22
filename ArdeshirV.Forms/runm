@@ -1,3 +1,0 @@
-#!/bin/sh
-# Run TestForms in Mono
-mono ./"Test ArdeshirV.Forms\bin\Debug\ArdeshirV.TestForms.exe"
