@@ -56,4 +56,3 @@ Spring Avestan Editor is an avestan language text editor.<br/><br/>
              Copyright&copy; 2008-2020 <a href="mailto:ArdeshirV@protonmail.com">ArdeshirV@protonmail.com</a>, Licensed under GPL<sup>v3+</sup>
         <p/>
     </footer>
-    
