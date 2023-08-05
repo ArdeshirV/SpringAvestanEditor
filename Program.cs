@@ -13,11 +13,11 @@
 
 using System;
 using System.Windows.Forms;
-using ArdeshirV.SpringAvestanEditor;
+using ArdeshirV.Applications.SpringAvestanEditor;
 
 #endregion
 //---------------------------------------------------------------------------------------
-namespace ArdeshirV.SpringAvestanEditor
+namespace ArdeshirV.Applications.SpringAvestanEditor
 {
     internal static class Program
     {

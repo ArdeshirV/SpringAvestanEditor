@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ArdeshirV.SpringAvestanEditor.Properties {
+namespace ArdeshirV.Applications.SpringAvestanEditor.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace ArdeshirV.SpringAvestanEditor.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("ArdeshirV.SpringAvestanEditor.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("ArdeshirV.Applications.SpringAvestanEditor.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

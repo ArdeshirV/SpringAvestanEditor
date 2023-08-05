@@ -8,8 +8,8 @@
     <ProjectGuid>{2D573A8B-1F8D-475D-BAB2-0AA460254DEB}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ArdeshirV.SpringAvestanEditor</RootNamespace>
-    <AssemblyName>ArdeshirV.SpringAvestanEditor</AssemblyName>
+    <RootNamespace>ArdeshirV.Applications.SpringAvestanEditor</RootNamespace>
+    <AssemblyName>SpringAvestanEditor</AssemblyName>
     <ApplicationIcon>SpringAvestanEditor.ico</ApplicationIcon>
     <ManifestCertificateThumbprint>A46331BC96BE1D1055A8EED21AC78614B44CBC66</ManifestCertificateThumbprint>
     <ManifestKeyFile>Spring Avestan  Editor_TemporaryKey.pfx</ManifestKeyFile>
@@ -94,6 +94,12 @@
     <TargetZone>LocalIntranet</TargetZone>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="ArdeshirV.Forms">
+      <HintPath>..\..\..\..\0Library\ArdeshirV.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="ArdeshirV.Tools.QrCode">
+      <HintPath>..\..\..\..\0Library\ArdeshirV.Tools.QrCode.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
@@ -133,7 +139,6 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
-    <None Include="SpringAvestanEditorKey.pfx" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
@@ -164,12 +169,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="SpringAvestanEditor.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="ArdeshirV.Forms\ArdeshirV.Forms\ArdeshirV.Forms.csproj">
-      <Project>{7e830e6d-b5cc-40a3-9941-f2bee42cd491}</Project>
-      <Name>ArdeshirV.Forms</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

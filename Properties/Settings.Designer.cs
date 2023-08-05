@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ArdeshirV.SpringAvestanEditor.Properties {
+namespace ArdeshirV.Applications.SpringAvestanEditor.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
